@@ -1,0 +1,494 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  @keyframes slideInFromTop {
+    from {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 110;
+    }
+  }
+  
+  body {
+    animation: slideInFromTop 0.5s ease-out;
+  }
+  
+.main{
+    width: 100%;
+    background-image: url(b1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+    border-bottom:aliceblue;
+    border-top: aliceblue;
+    border-left: aliceblue;
+    border-right: aliceblue;
+
+}
+.sub{
+    width: 86%;
+    display: flex;
+    margin:auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+   
+
+}
+ul{
+    margin-top: -4%;
+
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: -3%;
+    color: aliceblue;  
+    text-decoration: none;
+    font-size: 18px;
+     padding: 10px;
+     border-radius: 5px;
+    transition: background-color 0.3s; 
+}
+ul li a:hover{
+    color:red;
+    background-color: #ddd;
+
+}
+.info{
+ 
+    margin-left: 7%;
+    margin-top: 10%;
+    color: aliceblue;
+    font-weight: lighter;
+}
+.icons{
+
+    font-size:xx-large;
+     padding-left: 250px;
+     padding-top: 15px;
+     cursor: pointer;
+}
+
+.fa {
+    
+        padding: 2000px;
+        font-size: 100px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+      
+  }
+  
+  
+  .fa:hover {
+    opacity: 0.7;
+     }
+  
+  
+  .fa-facebook {
+    
+    color: white;
+    height: 50px;
+    padding-right: 25px;
+  }
+  .fa-facebook:hover{
+    color: blue;
+  }
+  
+
+  .fa-instagram{
+    color: white;
+    height: 50px;
+    padding-right: 25px;
+  }
+  .fa-instagram:hover{
+    color: #e11d74;
+  }
+  .fa-linkedin:hover{
+    color: #04009a;
+  }
+  
+  .fa-linkedin{
+    color: white;
+    height: 50px
+  }
+  .info span{
+    color: red;
+  }
+ .info h1{
+    font-weight:900;
+ }
+ .button{
+    background-color: red;
+    width:120px;
+    height:50px;
+    border-radius: 15px;
+    border: black;
+    font-weight: 900;
+    color: aliceblue;
+}
+.button:hover{
+  color: red;
+  background-color:aliceblue;
+}
+.b{
+    padding-left: 285px;
+    border: black;
+}
+.about span {
+  color: red;
+}
+.about h1{
+  font-weight:900;
+  color: aliceblue;
+  padding-left: 200px;
+}
+.about h4{
+  color: aliceblue;
+  font-weight: 400;
+  background-size: cover;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: 900;
+
+}
+.h{
+  padding-left: 100px;
+}
+.skills li{
+
+  color: aliceblue;
+}
+.skills ul{
+  color: aliceblue;
+  font-weight: 900;
+}
+.slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.project {
+  margin-bottom: 20px;
+  color: aliceblue;
+  font-weight: 900;
+  padding-left: 100px;
+
+}
+
+.project span{
+  color: red;
+}
+.sub img {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+
+.slider {
+  width: 80%;
+  max-width: 600px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.slides {
+}
+
+.slide {
+  min-width: 100%;
+  
+  position: relative;
+}
+
+.slide img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 0 0 10px 10px;
+}
+
+.navigation {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 15px;
+}
+
+.nav-btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.nav-btn:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.form-group{
+  padding-left: 600px;
+  padding-top: 50px;
+}
+.letter{
+  font-weight: 900;
+  color: red;
+  
+}
+.text{
+  align-content: center;
+  border-radius: 6px;
+  height: 35px;
+  border-color: red;
+  width: 250px
+}
+.button1{
+  background-color: red;
+  width:105px;
+  height:60px;
+  border-radius: 15px;
+  border: black;
+  font-weight: 900;
+  color: aliceblue;
+}
+.contact1 span {
+  color: red;
+}
+.contact1 h1{
+  font-weight:900;
+  color: aliceblue;
+  padding-left: 200px;
+}
+.b2{
+  padding-left: 725px;
+  padding-top: 15px;
+}
+
+.slider {
+            width: 80%;
+            max-width: 600px;
+            position: relative;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .slides {
+          display: flex;
+          width: 100%;
+          transition: transform 0.5s ease-in-out;
+      }
+
+      .slide {
+          min-width: 100%;
+          box-sizing:content-box;
+          position: relative;
+      }
+      
+
+      
+
+        .description {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 0 0 10px 10px;
+        }
+
+        .navigation {
+            position: absolute;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 0 15px;
+        }
+
+        .nav-btn {
+            background-color: rgba(0, 0, 0, 0.5);
+            border: none;
+            color: #fff;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 50%;
+            font-size: 18px;
+            transition: background-color 0.3s;
+        }
+
+        .nav-btn:hover {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+/* */
+.wrapper{
+  width: 100%;
+  height: 100%;
+
+}
+
+        
+@media screen and (max-width:600px) {
+  ul li{
+    display: table-row;
+    
+  }
+  a{
+    padding-right: 250px;
+    padding-left: 50px;
+
+  }
+  .b{
+    padding-right: 250px;
+    padding-left: 135px;
+  }
+  .icons{
+
+     padding-left: 100px;
+     padding-top: 15px;
+     
+    }
+  .main{
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+  }  
+  .about h1{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .contact1 h1{
+    padding-left: 100px;
+    padding-right: 150px;
+  }
+  .form-group{
+    padding-left: 50px;
+    padding-bottom: -100px;
+    
+  }
+  .text{
+    border-radius: 6px;
+    height: 20px;
+    border-color: red;
+    width: 175px;
+  } 
+  .button1{
+    background-color: red;
+    width:105px;
+    height:60px;
+    border-radius: 15px;
+    border: black;
+    font-weight: 900;
+    color: aliceblue;
+  }
+  .b2{
+    padding-right: 250px;
+    padding-left: 155px;
+  }
+  .sub img {
+    max-width: 100px;
+    margin-bottom: 15px;
+}
+
+ul {
+    flex-direction: column;
+    gap: 10px;
+}
+
+ul li a {
+    font-size: 16px;
+    padding: 8px;
+}
+
+.about h1 {
+    font-size:small;
+    padding-bottom: 10px;
+}
+
+.slider {
+  width: 80%;
+  max-width: 100%;
+  padding-top: 50px;
+}
+
+.description {
+    font-size: 16px;
+  
+}
+
+.nav-btn {
+    padding: 8px;
+    font-size: 16px;
+}
+
+.slider img{
+  width: 100%; 
+  height: 250px;/* Makes the image take up the full width of the slider */
+  height: auto; /* Maintains the aspect ratio of the image */
+  object-fit: cover; /* Ensures the image covers the entire slider area without distortion */
+  display: block; /* Removes any gaps under the image */
+}
+.about h4{
+  color: aliceblue;
+  font-weight: 400;
+  background-size: cover;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: smaller;
+  
+}
+.about li{
+  color: aliceblue;
+  font-weight: 300;
+  background-size: cover;
+  padding-left: px;
+  padding-right: 10px;
+  font-size: smaller;
+  position: left;
+  
+  
+
+}
+
+  
+}
