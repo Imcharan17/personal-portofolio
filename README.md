@@ -5,11 +5,9 @@ Table of Contents :
 .Introduction
 .Features
 .Technologies Used
-.Installation Instructions
 .Usage
 .Additional Features
-.Contributing
-.License
+
 .Introduction
 This portfolio website serves as a dynamic platform to present my work, interact with potential clients or employers, and demonstrate my technical skills in web development and data management.
 
